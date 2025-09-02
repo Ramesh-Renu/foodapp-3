@@ -1,0 +1,65 @@
+.admin-menu-list-img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.admin-menu-card.card .card-body {
+    padding: 0px;
+}
+
+.admin-menu-card.card {
+    background-color: #F6F6F6;
+    padding: 15px;
+}
+
+.admin-menu-card.card .card-title {
+    font-family: var(--secondary-font-regular);
+    font-weight: 600;
+    margin: 10px 0px;
+    color: #313131;
+    font-size: 20px;
+}
+
+.card-text {
+    color: #5E5E5E;
+    font-size: 16px;
+}
+.admin-menu-card .btn-menu-edit, .admin-menu-card .btn-menu-edit:active {
+    background: #ffffff;
+    background-color: #ffffff;
+    color: #418612;
+    font-weight: 600;
+    display: block;
+    width: auto;
+    padding: 0px;
+    margin: 20px auto;
+}
+.admin-menu-stock {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0px 30px;
+    border-radius: 6px;
+    width: 180px;
+    justify-content: center;
+    margin: 0px auto 10px;
+}
+.admin-menu-stock svg {
+    margin-left: 15px;
+}
+.admin-menu-stock.out-of-stock {
+    background-color: #B20000;
+}
+.admin-menu-stock.in-stock {
+    background-color: #6EB100;
+}
+p.admin-menu-price.card-text {
+    color: #313131;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}

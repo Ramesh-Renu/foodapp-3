@@ -1,0 +1,175 @@
+.restaurant-admin * {
+    font-family: var(--secondary-font-regular) !important;
+}
+.navbar .navbar-brand-wrapper {
+    border-bottom: 1px solid #C6C6C6;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+    width: 255px;
+    height: 60px;
+    padding: 0 2.1875rem;
+}
+.restaurant-dashboard .navbar-brand img {
+    height: 40px;
+}
+.navbar .navbar-menu-wrapper {
+    background: #fff;
+    border-bottom: 1px solid #C6C6C6;
+    transition: width 0.25s ease;
+    -webkit-transition: width 0.25s ease;
+    -moz-transition: width 0.25s ease;
+    -ms-transition: width 0.25s ease;
+    color: #ffffff;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    width: calc(100% - 255px);
+    height: 60px;
+    z-index: 99;
+}
+.restaurant-admin .navbar-brand img {
+    height: 35px;
+}
+.nav-item.nav-profile a {
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+}
+.navbar .navbar-menu-wrapper .navbar-nav {
+    flex-direction: row !important;
+}
+.nav-item.nav-profile a img {
+    border-radius: 8px;
+    height: 40px;
+}
+.navbar-toggler {
+    display: none;
+}
+.restaurant-dashboard .nav-link:hover {
+    border-bottom: unset;
+}
+.brand-logo-mini {
+    display: none;
+}
+.sidebar {
+    min-height: calc(100vh - 60px);
+    background: var(--secondary-color);
+    font-weight: 300;
+    padding: 0;
+    width: 255px;
+    position: fixed;
+    z-index: 11;
+    transition: width 0.25s ease, background 0.25s ease;
+    -webkit-transition: width 0.25s ease, background 0.25s ease;
+    -moz-transition: width 0.25s ease, background 0.25s ease;
+    -ms-transition: width 0.25s ease, background 0.25s ease;
+    box-shadow: 6px 16px 31px -18px #b7bcd1;
+    -webkit-box-shadow: 6px 16px 31px -18px #b7bcd1;
+    -moz-box-shadow: 6px 16px 31px -18px #b7bcd1;
+    -ms-box-shadow: 6px 16px 31px -18px #b7bcd1;
+}
+.sidebar .nav {
+    overflow: hidden;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.sidebar .nav:not(.sub-menu) {
+    margin-top: .5rem;
+}
+.sidebar .nav:not(.sub-menu) {
+    margin-top: 1.45rem;
+    margin-left: 0;
+    margin-right: 0.375rem;
+}
+.sidebar .nav .nav-item {
+    -webkit-transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s;
+    -o-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    transition-property: background;
+    -webkit-transition-property: background;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    line-height: 3;
+}
+.sidebar .nav:not(.sub-menu) > .nav-item {
+    margin-top: 0;
+}
+.sidebar .nav .nav-item {
+   padding: 0px 10px; 
+}
+.sidebar .nav .nav-item.active .nav-link {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+.sidebar .nav .nav-item.active .nav-link,.sidebar .nav .nav-item .nav-link:hover {
+    background-color: #41861233;
+    border-radius: 8px;
+}
+.sidebar .nav .nav-item.active .nav-link .menu-title,.sidebar .nav .nav-item .nav-link:hover .menu-title, .sidebar .nav .nav-item.active .nav-link svg, .sidebar .nav .nav-item .nav-link:hover svg {
+    color: var(--primary-color) !important;
+}
+.sidebar .nav .nav-item .nav-link {
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0px 10px;
+    -webkit-transition-duration: 0.45s;
+    -moz-transition-duration: 0.45s;
+    -o-transition-duration: 0.45s;
+    transition-duration: 0.45s;
+    transition-property: color;
+    -webkit-transition-property: color;
+    font-weight: 400;
+}
+.sidebar .nav .nav-item .nav-link {
+    color: #ffffff;
+}
+.sidebar .nav .nav-item .nav-link:hover {
+    border-bottom: 0px;
+}
+.sidebar .nav:not(.sub-menu) > .nav-item > .nav-link {
+    margin: 0;
+}
+.sidebar .nav .nav-item .nav-link .menu-title {
+    color: inherit;
+}
+.sidebar .nav .nav-item .nav-link .menu-title {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.sidebar .nav .nav-item .nav-link i {
+    font-size: 28px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+.title-1 {
+    font-family: var(--secondary-font-regular);
+    font-weight: 600;
+    font-size: 28px;
+}
+.restaurant-admin .btn-add {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--secondary-font-regular);
+    font-weight: 600;
+    margin: 0px 0px 0px auto;
+}
+.active>.page-link, .page-link.active {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.page-link, .page-link:hover,.page-link:focus {color: var(--primary-color);}
+.page-link:focus {
+    box-shadow: unset;
+}

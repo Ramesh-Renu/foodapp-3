@@ -1,0 +1,209 @@
+.main-rest-menu .restaurant-details *, .main-rest-menu .recommended-food * {
+  font-family: var(--secondary-font-regular);
+}
+.main-rest-menu .bg-success {
+  background: var(--gradient-bg);
+  /* Make sure this variable is defined */
+  border: 1px solid transparent;
+  padding: 10px 15px;
+}
+
+.main-rest-menu .banner {
+  position: relative;
+}
+
+.main-rest-menu .search-card {
+  position: absolute;
+  bottom: -115px;
+  left: 24px;
+  width: 350px;
+  background-color: #f0f0f0;
+  color: green;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  height: 250px;
+
+}
+
+.main-rest-menu .search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.main-rest-menu .search-icon {
+  font-size: 1.0rem;
+  margin-right: 5px;
+}
+
+.main-rest-menu .form-control {
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 230px;
+  flex: 1;
+  font-size: 0.7rem;
+}
+
+.main-rest-menu .form-control:focus {
+  box-shadow: none;
+}
+
+.main-rest-menu .searchbutton {
+  text-align: top;
+}
+
+.text-green {
+  color: var(--primary-color-dark)
+}
+
+/*Recommended  */
+.main-rest-menu .sec-bestdeals .card {
+  background: var(--gradient-bg);
+  border-radius: 22px;
+  width: 250px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.main-rest-menu .menu-item {
+  margin-bottom: 20px;
+}
+.main-rest-menu .recommended-food .card {
+  border-radius: 25px;
+  width: 500px;
+  background-color: #F9FFF5;
+}
+
+.main-rest-menu .recommended-food .card img {
+  padding: 15px;
+  width: 180px;
+  height: 180px;
+  border-radius: 30px !important;
+  object-fit: cover;
+}
+
+.main-rest-menu .text-success {
+  color: var(--primary-color) !important;
+}
+.main-rest-menu .menu-price,
+.main-rest-menu .menu-price .me-1 {
+  font-family: var(--secondary-font-bold);
+  font-size: 28px;
+}
+.main-rest-menu  .restaurant-name {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: var(--secondary-font-bold);
+  margin-bottom: 10px;
+}
+.main-rest-menu .add-btn {
+  background-color: var(--gradient-bg);
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 2px 22px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Noodles */
+
+.main-rest-menu .noodles-food .card {
+  border-radius: 25px;
+  width: 500px;
+}
+
+.main-rest-menu .noodles-food .card img {
+  padding: 15px;
+  right: 3px;
+}
+
+/* Combos */
+
+.main-rest-menu .combos-food .card {
+  border-radius: 25px;
+  width: 500px;
+}
+
+.main-rest-menu .combos-food .card img {
+  padding: 15px;
+  right: 3px;
+}
+
+.main-rest-menu .banner {
+  height: 75vh;
+}
+
+.main-rest-menu .search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.main-rest-menu .container-main {
+  margin-top: 150px;
+  margin-bottom: 80px
+}
+
+.sec-bestdeals p, .sec-bestdeals p span {
+  font-family: var(--secondary-font-regular);
+}
+
+.sec-bestdeals .card {
+  padding: 20px 10px;
+}
+
+.main-rest-menu .recommended-food {
+  margin-bottom: 80px;
+}
+
+.main-rest-menu .btn-add-cart {
+  padding: 8px 24px;
+  font-family: var(--secondary-font-bold);
+  border: 0px;
+}
+
+.main-rest-menu .qty-change {
+  background-color: #418612;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.main-rest-menu .qty-change button {
+  padding: 4px 10px;
+  border: 0px;
+  background: #418612 !important;
+  font-size: 20px;
+  font-family: var(--secondary-font-bold);
+  display: flex;
+  align-items: center;
+}
+.main-rest-menu .qty-change span {
+  font-family: var(--secondary-font-bold);
+  padding: 5px 5px;
+  color: var(--white-color);
+  font-size: 18px;
+}
+.main-rest-menu {
+  background-color: #F9FFF5;
+}
+.main-rest-menu .restaurant-img img {
+  height: 115px;
+  width: 115px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.title-3{
+  margin-top: 150px;
+}

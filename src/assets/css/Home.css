@@ -1,0 +1,144 @@
+.home .sec-banner {
+  height: 100vh;
+  background: url("../images/bg-sec-banner.svg");
+  background-size: cover;
+}
+.home h2 {
+  color: #5e5e5e;
+  font-family: var(--primary-font-regular);
+}
+.home h2 span {
+  color: var(--white-color);
+  font-family: var(--primary-font-bold);
+}
+
+.home .sec-banner form input,
+.home .sec-banner form input:focus-visible,
+.home .sec-banner form input:focus {
+  height: 55px;
+  border: 1px solid transparent;
+  background: #70726f;
+  color: #fafff766;
+  font-family: var(--secondary-font-regular);
+  border-color: transparent;
+  box-shadow: unset;
+  width: 400px !important;
+  border-radius: 10px 0px 0px 10px;
+}
+.home .sec-banner form .btn-primary {
+  height: 55px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0px 35px;
+}
+.home form input::placeholder {
+  color: hsla(98, 100%, 98%, 0.4) !important;
+}
+.home .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+.home .sec-qoute {
+  background: url("../images/bg-sec-qoute.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.home .sec-qoute h2 {
+  font-size: 62px;
+  color: var(--white-color);
+  font-family: var(--primary-font-bold);
+  line-height: 1.5;
+}
+.home .sec-localities .card svg {
+  color: var(--gray-color);
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  vertical-align: middle;
+}
+.home .sec-localities .card {
+  min-height: 94px;
+}
+
+.home .sec-localities .card h4,
+.home .sec-localities .card p,
+.home .sec-top-rated-restaurant p,
+.home .sec-top-rated-restaurant span,
+.home .sec-pre-booking .card h4,
+.home .sec-pre-booking .card p {
+  font-family: var(--secondary-font-regular);
+}
+.home .sec-top-rated-restaurant h4 {
+  font-family: var(--secondary-font-bold);
+}
+.home .sec-top-rated-restaurant svg {
+  fill: #f4db00;
+  margin: 0px 2px;
+  font-size: 24px;
+}
+.home .sec-top-rated-restaurant .card img {
+  border-radius: 10px 10px 0px 0px;
+}
+.home .sec-top-rated-restaurant .card {
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 0px #0000001a;
+}
+.home .sec-pre-booking {
+  background-image: url(../images/bg-sec-pre-book-food.png);
+  background-repeat: no-repeat;
+  background-color: var(--primary-color-dark);
+}
+.home .sec-pre-booking .card {
+  border-radius: 24px;
+}
+.home .sec-nearby-restaurants,
+.home .sec-localities,
+.home .sec-best-food,
+.home .sec-localities .card {
+  background-color: #f9fff5;
+}
+.home .sec-localities .card:hover {
+    transition: background-color 1s;
+    background-color:var(--primary-dark-color);
+  }
+.home .sec-nearby-restaurants h2 {
+  margin: 20px 0px 60px !important;
+}
+.home .restaurant-item {
+  border: 1px solid #999999 !important;
+  box-shadow: 2px 4px 11px 0px #0000001a;
+  border-radius: 10px;
+}
+.home .restaurant-item img {
+  height: 240px;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 10px 10px 0px 0px;
+}
+.home .restaurant-item h5 {
+  font-family: var(--secondary-font-bold);
+  color: #000;
+  font-size: 22px;
+}
+.home .restaurant-item p {
+  font-family: var(--secondary-font-regular);
+  color: #999999;
+  font-size: 24px;
+}
+.home .restaurant-item .rating {
+  font-family: var(--secondary-font-regular);
+  color: #999999;
+}
+.home .resturant-item-content {
+  padding: 20px;
+}
+.sec-best-food img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}

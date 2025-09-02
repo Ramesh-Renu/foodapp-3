@@ -1,0 +1,207 @@
+.main-restlist .sec-restsection .sectioncard p {
+  font-family: var(--secondary-font-regular);
+  color: #999999;
+  font-size: 20px;
+}
+.main-restlist .bg-success {
+  background: var(--gradient-bg);
+  border: 1px solid transparent;
+  padding: 10px 15px;
+}
+.main-restlist .banner {
+  position: relative;
+}
+.main-restlist .header {
+  z-index: 1;
+}
+.main-restlist .banner-col {
+  height: 75vh;
+}
+.main-restlist .search-card {
+  z-index: 2;
+  position: absolute;
+  bottom: -115px;
+  left: 24px;
+  width: 350px;
+  background-color: #f0f0f0;
+  color: green;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  height: 250px;
+}
+.main-restlist .search-form {
+  display: flex;
+}
+.main-restlist .search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.main-restlist .search-icon {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.main-restlist .restlistsearch.form-control {
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 230px;
+  flex: 1;
+  font-size: 0.7rem;
+  padding: 8px;
+  background: unset !important;
+}
+.main-restlist .form-control:focus {
+  box-shadow: none;
+}
+/* .searchbutton{
+  text-align:top;
+}
+*/
+.main-restlist .buttonsearch {
+  left: -280px;
+  position: relative;
+  top: 60px;
+}
+.main-restlist .sec-banner {
+  background: url("../images/Restaurantlistbanner.png");
+  background-size: cover;
+  height: 75vh;
+}
+.main-restlist .sec-restsection {
+  padding-top: 140px;
+  position: relative;
+}
+.main-restlist .arrow {
+  position: absolute;
+  right: -120px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 60px;
+  color: green;
+}
+.main-restlist .food-section {
+  position: absolute;
+  top: 1200px;
+  left: 120px;
+}
+.main-restlist .sectioncards {
+  display: flex;
+  justify-content: space-between;
+  background-color: unset;
+}
+.main-restlist .sec-restsection .sectioncard h6 {
+  margin: 20px 0px 10px;
+  font-family: var(--secondary-font-bold);
+}
+.main-restlist .rate {
+  background-color: #27500b;
+  width: 60px;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  font-family: var(--secondary-font-bold);
+  border: 1px solid #ffffff;
+  border-right: none;
+  border-radius: 4px 0px 0px 4px;
+}
+.main-restlist .rate span {
+  font-family: var(--secondary-font-bold6);
+}
+.main-restlist .card-img img {
+  border-radius: 20px;
+}
+.main-restlist .card-img .rate span {
+  font-family: var(--secondary-font-regular);
+}
+.main-restlist .restlistsearch {
+  width: 230px !important;
+}
+header {
+  z-index: 1;
+}
+.main-restlist .qty-change {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.main-restlist .carousel-control-prev-icon {
+  background-image: url(../images/arrow.png);
+  position: absolute;
+  left: -40px;
+  transform: rotate(180deg);
+}
+.main-restlist .custom-arrow.right-arrow {
+  background-image: url(../images/arrow.png);
+  position: absolute;
+  right: -40px;
+}
+.react-multiple-carousel__arrow--right::before {
+  content: "" !important;
+  width: 40px;
+  height: 20px;
+  background-image: url("../images/arrow.png");
+}
+
+.main-restlist .carousel-control-next {
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+.main-restlist .card-img img {
+  height: 240px;
+  object-fit: fill;
+  width: 100%;
+}
+.main-restlist .sec-restaurant-search-category img {
+  height: 180px;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 0px;
+}
+.main-restlist .sec-restaurant-search-category .card-body .card-title {
+  font-family: var(--secondary-font-bold);
+  font-size: 20px;
+}
+.main-restlist .sec-restaurant-search-category .card-body {
+  padding: 10px 0px 20px;
+  background-color: unset;
+}
+.main-restlist section {
+  background-color: #f9fff5;
+}
+.main-restlist .sectioncard {
+  background-color: unset;
+  height: 100%;
+  object-fit: cover;
+}
+.main-restlist .sectioncard .card-img-top {
+  height: 100%;
+  max-height: 225px;
+  object-fit: fill;
+}
+.main-restlist .sectioncard .img-fluid.rounded-lg {
+  max-height: 100%;
+}
+.main-restlist .sec-restaurant-search-category {
+  padding-bottom: 100px;
+}
+.react-multi-carousel-track,
+.react-multi-carousel-list,
+.react-multi-carousel-track {
+  position: unset !important;
+}
+.main-restlist .custom-arrow .arrow-image {
+  height: 40px;
+}

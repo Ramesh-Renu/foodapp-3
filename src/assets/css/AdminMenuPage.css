@@ -1,0 +1,71 @@
+.restaurant-dashboard 
+.main-panel {
+    transition: width 0.25s ease, margin 0.25s ease;
+    width: calc(100% - 255px);
+    min-height: calc(100vh - 60px);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.page-body-wrapper {
+    min-height: calc(100vh - 60px);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 60px;
+}
+.main-panel {
+    transition: width 0.25s ease, margin 0.25s ease;
+    width: calc(100% - 255px);
+    min-height: calc(100vh - 60px);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    width: 100%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+body .adminmenu * {
+    font-family: var(--secondary-font-regular);
+}
+.adminmenu .card {
+    background-color: #f5f5f5;
+    border-radius:20px;
+}
+.adminmenu .title-1,.title-2 {
+    font-weight:bold;
+}
+
+.adminmenu .card-img-top {
+    height: 170px;
+    padding:10px;
+}
+
+.adminmenu .card-text-1 {
+    font-weight:bold;
+    font-size: 16px;
+}
+.adminmenu .card-text-2 {
+    font-size: 14px;
+}
+
+.adminmenu .card-text-3 {
+    font-weight:bold;
+}
+.d-flex-1 .btn{
+   color:green;
+   margin:0px auto;
+}
+.d-flex-2{
+    
+}

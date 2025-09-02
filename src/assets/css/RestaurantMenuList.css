@@ -1,0 +1,95 @@
+.main-rest-menu-list * {
+  font-family: var(--secondary-font-regular);
+}
+.main-rest-menu-list .bg-success {
+  background: var(--gradient-bg);
+  border: 1px solid transparent;
+  padding: 10px 15px;
+}
+.main-rest-menu-list .banner {
+  position: relative;
+}
+.main-rest-menu-list .search-card {
+  position: absolute;
+  bottom: -115px;
+  left: 24px;
+  width: 350px;
+  background-color: #f0f0f0;
+  color: green;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  height:250px;
+}
+.main-rest-menu-list .search-form {
+  display: flex;
+}
+.main-rest-menu-list .search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.main-rest-menu-list .search-icon {
+  font-size: 1.0rem;
+  margin-right: 5px;
+}
+.main-rest-menu-list .form-control {
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 230px;
+  flex: 1;
+  font-size: 0.7rem;
+}
+.main-rest-menu-list .form-control:focus {
+  box-shadow: none;
+}
+.main-rest-menu-list .searchbutton {
+  text-align: top;
+}
+.main-rest-menu-list .mt-20-custom {
+  margin-top: 200px;
+}
+/* Filter */
+/* menu list */
+.main-rest-menu-list .card-no-outline {
+  border: none !important;
+  box-shadow: none;
+}
+.main-rest-menu-list .card-body-custom {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.main-rest-menu-list .text-green {
+  color: var(--primary-color-dark);
+}
+.main-rest-menu-list .btn-rounded {
+  border-radius: 100px;
+  background-color: var(--primary-dark-color);
+}
+.main-rest-menu-list .card-no-outline {
+  transition: transform 0.3s ease-in-out;
+}
+.main-rest-menu-list .card-no-outline:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.main-rest-menu-list .card-body-custom {
+  transition: transform 0.3s ease-in-out;
+}
+.main-rest-menu-list .menu-list .card .card-img-overlay {
+  position: absolute;
+  top: 240px;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 100px;
+  width: 378px;
+  font-size: xx-large;
+}
+.main-rest-menu-list .menu-list .card .badge {
+  background-color: unset !important;
+}

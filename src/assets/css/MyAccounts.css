@@ -1,0 +1,363 @@
+
+
+.sec-banner.account {
+    background-color: var(--primary-color-dark) !important;
+    background: unset;
+    height: unset;
+    border-bottom: 2px solid #fff;
+}
+
+.header {
+    box-shadow: unset;
+}
+
+.sec-banner .row {
+    height: 75vh;
+}
+
+.profile-img {
+    height: 140px;
+}
+
+.sec-user-details .row .tab-main-row {
+    margin-top: -100px;
+    border-radius: 50px;
+    padding: 50px 25px;
+    max-height: 700px;
+    min-height: 500px;
+    border: 2px solid #BFBFBF;
+    overflow: hidden;
+}
+.main-myaccount .sec-user-details .tab-user {
+    border-left: 2px solid #BFBFBF;
+    height: 100%;
+    padding-left: 30px;
+}
+ 
+.sec-user-details {
+    padding-bottom: 100px !important;
+}
+.main-myaccount .tab-heading {
+    color: #5E5E5E;
+    font-size: 38px;
+    font-family: var(--secondary-font-bold);
+    margin-bottom: 20px;
+}
+.card-bank-img {
+    margin-right: 12px;
+}
+
+.card-brand-img {
+    margin-left: 12px;
+}
+.sec-user-details .nav-tabs li {
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.sec-user-details .nav-tabs .nav-link {
+    color: #999999 !important;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sec-user-details .nav-link.active, .sec-user-details .nav-link:hover {
+    color: #fff !important;
+    background-color: var(--primary-color);
+}
+
+
+
+.tab-panel {
+    display: none;
+}
+
+.accordion-body:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.past-order-img {
+    height: 120px;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.past-order-details {
+    padding-left: 10px;
+    display: grid;
+}
+.past-order-details h5 {
+    font-family: var(--secondary-font-bold);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.past-order-details h6 {
+    font-family: var(--secondary-font-regular);
+    font-size: 16px;
+    color: var(--gray-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.past-order-details p {
+    color: var(--gray-color);
+    font-family: var(--secondary-font-regular);
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-bottom: 0px;
+}
+.past-order-cta {
+    display: grid;
+    height: 100%;
+    justify-content: flex-end;
+}
+.past-order-cta .pick-time {
+    font-size: 14px;
+    color: #313131;
+    margin-bottom: 0px;
+    justify-content: end;
+}
+.past-order-cta .link-view {
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+    margin: 0px 0px 0px auto;
+}
+.past-order-cta .btn {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 0px;
+    margin: 0px 0px 0px auto;
+}
+.past-order-row {
+    border-bottom: 1px solid #e1e1e1ab;
+    padding: 0px 0px 20px;
+    margin-bottom: 20px;
+}
+
+.tab-user .accordion-body {
+    max-height: 600px;
+    overflow-y: scroll;
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.tab-user .accordion-body::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: #b6b6b6;
+}
+
+.tab-user .accordion-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+.card-item {
+    border-bottom: 1px solid #E6E6E6;
+    justify-content: space-between;   
+    padding-bottom: 15px; 
+    margin-bottom: 15px;
+}
+.accordion-body .card-item:last-child {
+    border-bottom: 0px;
+}
+.card-item p:first-child {
+    font-size: 20px;
+    color: #313131;
+    font-family: var(--secondary-font-bold);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.card-item button:hover svg, .card-item button:hover p {
+    color: #ff1100 !important;
+}
+.card-item button svg {
+    color: #999999;
+}
+.card-item button p {
+    color: #5E5E5E !important;
+    font-size: 12px !important;
+    font-family: var(--secondary-font-regular);
+}
+.card-item p:last-child {
+    font-size: 20px;
+    color: #999999;
+}
+.card-item p:nth-child(2) {
+    font-size: 18px;
+    color: #313131;
+    font-family: var(--secondary-font-bold);
+}
+.card-item p {
+    margin-bottom: 8px;
+    font-family: var(--secondary-font-regular);
+}
+@media(max-width: 990px) {
+    .tab-panel {
+        display: block;
+    }
+
+    .sec-user-details .fade:not(.show) {
+        opacity: 11 !important;
+    }
+
+    .tab-user {
+        border: 1px solid var(--light-gray-color);
+    }
+
+    .accordion-button:focus {
+        box-shadow: unset !important;
+    }
+
+    .sec-user-details .row .row {
+        min-height: unset;
+    }
+}
+
+/* Toggle */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background-color: var(--primary-color-light);
+}
+
+input:focus+.slider {
+    box-shadow: var(--primary-color-light);
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+.main-myaccount .slider.round {
+    border-radius: 34px;
+}
+
+.main-myaccount .slider.round:before {
+    border-radius: 50%;
+}
+.main-myaccount .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.main-myaccount .card-delete-modal {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+}
+.modal-title {
+    font-size: 24px !important;
+    font-family: var(--secondary-font-bold);
+    text-transform: capitalize;
+}
+.modal-body p {
+    font-size: 18px;
+    color: #5E5E5E;
+    font-family: var(--secondary-font-regular);
+    margin: 20px 0px;
+    text-align: center;
+}
+.modal-footer button {
+    font-family: var(--secondary-font-bold);
+}
+.modal-add-profile {
+    width: 400px;
+    background: #fff;
+    padding: 20px 40px 40px;
+    border-radius: 20px;
+}
+
+.modal-add-profile .modal-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.modal-add-profile input#phoneNumber {
+    cursor: not-allowed;
+    background-color: #E3E3E3;
+}
+.modal-add-profile .modal-header {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal-body .form-label, .modal-body label {
+    color: #5E5E5E;
+    font-family: var(--secondary-font-regular);
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+.modal-body input, .form-control:focus, .modal-body textarea {
+    background: #E3E3E3;
+    color: #5E5E5E;
+    font-family: var(--secondary-font-regular);
+    height: 48px;
+}
+.modal-body textarea, textarea.form-control:focus {
+    height: 100px;
+}
+.modal-body form .text-danger, .modal-body form .invalid-feedback {
+    font-size: 14px;
+    font-family: 'Segoe-UI-Regular, system-ui';
+    margin-top: 5px;
+    /* position: absolute; */
+}
+
+.form-control:focus, .address_modal-form-control:focus, input:focus-visible {
+    border-color: var(--primary-color-light) !important;
+}

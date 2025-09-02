@@ -1,0 +1,116 @@
+.restaurantlogic * {
+  font-family: var(--secondary-font-regular);
+}
+.restaurantlogic label, button {
+  font-family: var(--secondary-font-bold);
+}
+.restaurantlogic {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurantlogic .restaurant-heading {
+    color: var(--primary-color-light);
+    font-style: italic;
+    font-family: var(--primary-font-bold);
+    font-size: 22px;
+}
+  .restaurantlogic .row {
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0px !important;
+    width: 70%;
+  }
+  
+  /* Styling for the left column */
+  .restaurantlogic .col-md-6 {
+    padding: 50px;
+  }
+  
+  
+  /* Styling for the form labels */
+  .restaurantlogic .form-label {
+    margin-left: 41px;
+  }
+  
+  /* Styling for input fields */
+  .restaurantlogic .form-control {
+    margin-left: 39px;
+    width: 269px;
+    height: 32px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+  
+  /* Styling for the Forgot Password text */
+  .restaurantlogic .forgot-password {
+    margin-left: 155px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Styling for the submit button */
+  .restaurantlogic .btn-submit {
+    width: 142px;
+    background: var(--gradient-bg);
+    color: white !important;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--secondary-font-bold);
+}
+.restaurantlogic .text-danger.mt-1 {
+  padding-left: 12px;
+}
+.restaurantlogic button.btn-submit.mt-5 {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+}
+  /* Add some margin between input fields */
+  .restaurantlogic .mt-6 {
+    margin-top: 5px;
+  }
+  .restaurantlogic .mt-6 .form-control::placeholder {
+    color: #999999;
+  }
+  .restaurantlogic .mt-6 .form-control {
+    width: -webkit-fill-available;
+    margin-left: 8px;
+    font-size: 14px;
+    height: 42px;
+    background-color: #EEEEEE;
+}
+.restaurantlogic .restaurant-login-right {
+  background-color: #418612;
+}
+  .restaurantlogic .mt-6 .form-label {
+    margin-left: 11px;
+    font-size: 15px;
+}
+  /* .restaurantlogic .mt-6 .forgot-password {
+    font-size: 13px;
+    margin-left: 184px;
+  } */
+
+/* Styling for the image container */
+.restaurantlogic .restaurant-images {
+  position: relative;
+}
+
+/* Styling for the User1 image */
+.restaurantlogic .img-fluid {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styling for the User2 image */
+.restaurantlogic .user2-img {
+  height: 58px;
+}
+.restaurantlogic .restaurant-login-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

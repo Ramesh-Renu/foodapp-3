@@ -1,0 +1,78 @@
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 0px;
+  background-color: #F9FFF5;
+}
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+.nav-header-profile {
+  color: #313131;
+  border-bottom: 4px solid transparent;
+}
+.nav-link {
+  margin: 0 15px;
+  color: #313131;
+}
+.nav-link.active, .nav-link:hover, .nav-header-profile:hover {
+  color: var(--primary-color-light) !important;
+}
+.header-nav-icons {
+  display: none;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.nav-link.active .header-nav-icons {
+  display: block;
+}
+
+.header .navbar-nav li a {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header .navbar-nav li a::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 4px;
+  background-color: var(--primary-color-light);
+  bottom: -5px;
+  border-radius: 5px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: none;
+}
+
+.header .navbar-nav li a:hover::after {
+  display: block;
+}
+.navbar-toggler-icon {
+  background-image: url('../images/hamberganmenu.svg') !important;
+}
+@media (max-width: 991px) {    
+  .header .navbar-toggler {
+    display: unset;
+  }
+}
+
+/* Profile modal text hover */
+.hover-primary:hover {
+  color: var(--primary-color) !important;
+}
+
+.profie-image {
+  width:25px ;
+  height:25px ;
+  object-fit: cover;
+}
+.no-order {
+  padding: 2px 10px;
+}

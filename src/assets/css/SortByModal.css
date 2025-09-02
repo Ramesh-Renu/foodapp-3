@@ -1,0 +1,38 @@
+/* SortByModal.css */
+.dropdown-menu-custom {
+  position: absolute;
+  inset: 0px auto auto 0px;
+  transform: translate(0px, 40px);
+  width: 197px;
+  padding: 17px;
+  border-radius: 21px;
+  margin-left: 48px;
+  margin-top: -41px;
+  margin-right: -80px;
+}
+.btn-apply {
+  width: 120px;
+  height: 35px;
+  float: left;
+  background-color: var(--gradient-bg);
+  margin-bottom: 2px;
+}
+.form-check-label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fs-6 {
+  font-size: 1rem;
+}
+.form-check {
+  margin-left: -21px;
+}
+.form-check-input {
+  margin-right: 18px;
+}

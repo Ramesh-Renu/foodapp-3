@@ -1,0 +1,44 @@
+.toast-container {
+  top: 70px !important;
+  right: 20px !important;
+  position: fixed;
+  z-index: 9999;
+}
+
+.toast-container .bg-success {
+  background-color: #27ae60 !important;
+  color: #ffffff; /* Replace with your white color value */
+}
+
+.toast-container .toast-body {
+  padding: 10px;
+}
+
+.toast-container .toast-body-container {
+  display: flex;
+  align-items: center;
+}
+
+.toast-container .toast-body-container-content p {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+.toast-container .toast-body-container-content span {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.toast-container .toast-body-container-content .hint {
+  display: block;
+  font-size: 12px;
+  color: #ffca28;
+}
+
+.toast-container .toast-body-container-content .hint label {
+  color: #4f4f4f;
+  font-weight: bold;
+}

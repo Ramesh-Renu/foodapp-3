@@ -1,0 +1,185 @@
+.main-cart * {
+  font-family: var(--secondary-font-regular);
+}
+.main-cart .cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main-cart .border-line {
+  border-top: 1px solid;
+  margin: 20px 20px;
+}
+.main-cart .resimg {
+  justify-content: center;
+}
+.main-cart .resname {
+  margin-left: 40px;
+}
+.main-cart .icon {
+  color: green;
+}
+.main-cart .icon1 {
+  color: grey;
+}
+.main-cart .icon2 {
+  color: green;
+}
+.main-cart .carttext {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.main-cart .image img {
+  height: 80%;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 275px;
+}
+.main-cart .img1 {
+  display: flex;
+  position: relative;
+}
+.main-cart .img1 img {
+  height: 35px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.main-cart input[type="text"] {
+  padding: 8px;
+  padding-left: 50px;
+  width: 500px;
+  background-color: #ededed;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.main-cart .btn {
+  background: var(--gradient-bg);
+  border: 1px solid transparent;
+  height: 42px;
+  color: white;
+  font-weight: bold;
+}
+.main-cart .coupon {
+  margin-top: 35px;
+  margin-left: 200px;
+}
+.main-cart .bill {
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.main-cart .cost {
+  margin-left: 500px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-cart .item {
+  font-size: 20px;
+}
+.main-cart .items {
+  margin-left: 200px;
+}
+.cost1 {
+  margin-left: 470px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-cart .cost2 {
+  margin-left: 475px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-cart .cost3 {
+  margin-left: 509px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-cart .cost4 {
+  margin-left: 509px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-cart .border-line1 {
+  border-top: 1px solid;
+  width: 700px;
+  margin-left: 160px;
+}
+/* */
+.main-cart .food-item-card {
+  width: 150px;
+  border-radius: 15px;
+  overflow: hidden;
+  left: 250px;
+  border: none !important;
+}
+.main-cart .food-item-card .card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+.main-cart .quantity-control {
+  background-color: var(--primary-color-light);
+  border-radius: 6px;
+  padding: 5px;
+  min-width: 85px;
+  position: absolute;
+  top: 128px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ffffff;
+}
+.main-cart .quantity-control .quantity {
+  font-weight: bold;
+  color: white;
+}
+.main-cart .quantity-control .btn-sm {
+  font-weight: bold;
+  color: white;
+}
+/* Pay now */
+.main-cart .btn1 {
+  background: var(--gradient-bg);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+}
+.main-cart .icon {
+  width: 20px;
+  height: 20px;
+}
+.item-quantity {
+  color: #ffffff;
+}
+.goToRestaurant {
+  background: var(--gradient-bg);
+  color: var(--bs-white);
+  height: 57px;
+  padding: 4px 20px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  font-family: var(--bs-btn-font-family);
+  font-size: var(--bs-btn-font-size);
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+}
+.pay-btn {
+  font-family: var(--secondary-font-bold);
+  font-size: 20px;
+}

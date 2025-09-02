@@ -1,0 +1,26 @@
+/* .super-admin-restaurant-modal .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30%; 
+    margin: 0;
+    animation: slideIn 0.3s ease-out; 
+    transform: translateX(0);
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+   */
+
+
+   .super-admin-restaurant-modal .custom-modal-width .modal-dialog {
+    max-width: 800px;
+    width: 90%;
+}

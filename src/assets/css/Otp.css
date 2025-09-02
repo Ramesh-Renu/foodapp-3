@@ -1,0 +1,39 @@
+.main-otp.container-fluid {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+.main-otp .row {
+  height: 100%;
+  border-radius: 26px;
+  overflow: hidden;
+}
+.main-otp .col-md-6 {
+  padding: 50px;
+}
+.main-otp .text-sign {
+  margin-bottom: 16px;
+  text-align: center;
+  color: var(--primary-color-light);
+}
+.main-otp .form-control {
+  padding: 8px;
+  background-color: var(--primary-light-color) !important;
+ /* border: 1px solid var(--primary-border-color);
+  */
+}
+.login-modal .edit-option {
+   color: #1300F0;
+}
+.login-modal .masked-ph {
+  font-family: var(--secondary-font-regular);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.login-modal .masked-ph span {
+  font-size: 14px;
+  font-family: var(--secondary-font-regular);
+  margin-left: 10px;
+  cursor: pointer;
+}

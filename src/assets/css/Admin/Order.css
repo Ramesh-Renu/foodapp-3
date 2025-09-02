@@ -1,0 +1,213 @@
+.main-order * {
+    font-family: var(--secondary-font-regular) 
+}
+.main-order .cart {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* .border-line {
+    border-top: 1px solid ;
+    margin: 20px 20px ;
+}
+*/
+.main-order .resimg{
+    justify-content: center;
+}
+.main-order .resname{
+    margin-left: 40px;
+}
+.main-order .icon{
+    color: var(--primary-color-dark);
+}
+.main-order .icon1{
+    color: grey 
+}
+.main-order .icon2{
+    color: var(--primary-color-dark);
+}
+.main-order .carttext{
+    margin-left: 20px;
+    margin-top: 50px 
+}
+/* .image img{
+    height: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 275px 
+}
+*/
+/* .img1 {
+    display: flex;
+    position: relative;
+}
+.img1 img {
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 10px 
+}
+*/
+.main-order .bill{
+    margin-top: 30px;
+    margin-left: 70px 
+}
+.main-order .cost{
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 20px 
+}
+.main-order .item{
+    font-size: 20px 
+}
+.main-order .items{
+    margin-left: 70px;
+}
+.main-order .cost1{
+    margin-left: 470px;
+    font-weight: bold;
+    font-size: 20px 
+}
+.main-order .cost2{
+    margin-left: 475px;
+    font-weight: bold;
+    font-size: 20px 
+}
+.main-order .cost3{
+    margin-left: 509px;
+    font-weight: bold;
+    font-size: 20px 
+}
+.main-order .cost4{
+    margin-left: 509px;
+    font-weight: bold;
+    font-size: 20px 
+}
+.main-order .border-line1 {
+    border-top: 1px solid ;
+    width: 700px ;
+    margin-left: 70px 
+}
+.main-order .border-line {
+    border-top: 1px solid ;
+    width: 700px ;
+    margin-left: 20px ;
+}
+.main-order .order{
+    color:green;
+}
+.main-order .verifyicon{
+    font-size:50px;
+    color:green;
+    text-background:white;
+    position:relative;
+    right:50px;
+    top:60px;
+}
+.main-order .h299{
+    font-family: var(--secondary-font-regular) 
+}
+.main-order .h3hydrabadi{
+    font-weight:bold;
+}
+/* tracking line */
+.main-order .tracking-line {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+}
+.main-order .stage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.main-order .icon-container {
+    font-size: 20px;
+    color: gray;
+    background: #e9ecef;
+    border-radius: 100%;
+    padding: 10px;
+    z-index: 2;
+}
+.main-order .completed .icon-container {
+    background: #28a745;
+    color: white;
+}
+.main-order .line {
+    flex: 1;
+    height: 3px;
+    background-color: #e9ecef;
+    margin: 0 10px;
+}
+.main-order .completed + .line {
+    background-color: #28a745;
+}
+.main-order .label-container {
+    text-align: center;
+}
+.main-order .label {
+    color: gray;
+    font-weight: bold;
+}
+.main-order .time {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+.main-order .tab-content, .main-order .tab-content .tabs-order-management {
+    padding: 0px 0px;
+}
+/* Style for food image in the table */
+.food-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Optional: Adds spacing and border to table rows */
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-light th {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .table td, .table th {
+    vertical-align: middle;
+  }
+.tabs-order-management {
+    border-bottom: 0px;
+}
+
+.tabs-order-management li button, .tabs-order-management li button:hover, .tabs-order-management li button:focus {
+    color: #313131 !important;
+    font-weight: 600;
+    border: 0px !important;
+}
+
+.tabs-order-management li button.active {
+    background-color: #E9E9E9 !important;
+    color: #313131 !important;
+    border-radius: 6px;
+    margin-left: 0px;
+}
+.nav-link:focus-visible {
+    box-shadow: unset !important;
+}
+.tabs-order-management table tr td, .tabs-order-management table tr, .tabs-order-management table tr th {
+    border: 0px;
+}
+.tabs-order-management table tbody tr:nth-child(even) td {
+    background-color: #F8F8F8;
+}
+.tabs-order-management table tbody tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+.admin-view-order-details {
+    padding: 5px 10px;
+}

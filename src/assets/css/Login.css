@@ -1,0 +1,133 @@
+.main-login.container-fluid {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.main-login .row {
+  height: 100%;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.main-login .col-md-6 {
+  padding: 50px;
+}
+
+.main-login .text-sign {
+  margin-bottom: 16px;
+  text-align: center;
+  color: var(--primary-color-light);
+  font-family: var(--secondary-font-bold);
+  text-transform: capitalize;
+}
+
+.main-login .form-select {
+  max-width: 80px;
+  background-color: var(--primary-light-color);
+}
+
+.main-login .form-control {
+  padding: 10px;
+  background-color: var(--primary-light-color);
+  border: 1px solid var(--primary-border-color);
+}
+
+.main-login input.form-control:focus {
+  background-color: var(--primary-light-color) !important;
+}
+
+.main-login .btn-submit {
+  width: 200px;
+  background: var(--gradient-bg);
+  color: white !important;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  height: 48px;
+  margin: 0px auto;
+}
+.main-login .login-btn-div {
+  padding-bottom: 20px !important;
+}
+.main-login .btn-outline-secondary {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #5E5E5E !important;
+  background-color: white !important;
+  border-radius: 20px;
+  margin-top: 30px !important;
+  font-size: 20px;
+}
+.main-login .img-fluid {
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-login .border-line {
+  height: 1px;
+  background-color: #EEEEEE;
+  width: 287px;
+  margin-top: 20px;
+}
+.login-modal .modal-content {
+  padding: 0px;
+  border-radius: 30px;
+  max-width: max-content;
+}
+
+.login-modal .main-login {
+  height: 80vh !important;
+  
+  padding: 0px;
+}
+.login-modal .modal-dialog {
+  max-width: 950px;
+}
+.login-modal * {
+  font-family: var(--secondary-font-regular);
+}
+.login-modal .country-code {
+  background-color: #EDEDED;
+  width: 110px;
+  height: 48px;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 6px 6px 6px 6px !important;
+  margin-right: 10px;
+  border: 1px solid var(--primary-border-color);
+}
+
+.login-modal .country-code img {
+  height: 28px;
+}
+
+.login-modal .country-code span {
+  margin: 0px 5px;
+  color: #5E5E5E;
+}
+
+.login-modal .country-code svg {
+  color: #5e5e5e;
+  font-size: 14px;
+}
+.login-modal input::placeholder {
+  color: #999999;
+}
+.login-modal .btn-model-close {
+  font-size: 16px;
+  position: absolute;
+  background-color: #ffffff4f;
+  right: 20px;
+  top: 20px;
+  color: #ffffff;
+  border-radius: 50%;
+  fill: #ffffff;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}

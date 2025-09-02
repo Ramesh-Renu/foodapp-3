@@ -1,0 +1,19 @@
+footer {
+    background-color: var(--primary-color-dark);
+}
+.social svg {
+    font-size: 24px;
+    color: var(--white-color);
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul li a {
+    font-family: var(--secondary-font-regular);
+    font-size: 16px;
+}
+footer h4 {
+    font-family: var(--secondary-font-bold);
+}
